@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'net/http'
 require 'rest-client'
-
+OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 ################################################################################################
 # GLOBAL VARIABLES
 ################################################################################################
